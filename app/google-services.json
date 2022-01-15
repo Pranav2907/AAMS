@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169903074381",
+    "project_id": "aams-46f7c",
+    "storage_bucket": "aams-46f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169903074381:android:2fd474a67ae69db28b4004",
+        "android_client_info": {
+          "package_name": "com.example.aams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169903074381-94b49kha0c4mv43a73pv1s3b3i2khqss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPY63s4PZFeho3YDx8CRR7yW2aWXU1tMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169903074381-94b49kha0c4mv43a73pv1s3b3i2khqss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

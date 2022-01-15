@@ -1,0 +1,31 @@
+<androidx.cardview.widget.CardView layout_width="match_parent"
+    layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="4dp" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.attendanceMonitoringSystem.Utils.LetterImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivLetter"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWeek"
+            android:textStyle="bold"
+            android:text="Days"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/ivLetter"
+            android:textSize="24sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

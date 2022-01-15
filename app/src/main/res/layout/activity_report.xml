@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report">
+
+  <ProgressBar
+
+      android:id="@+id/bar"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:indeterminateOnly="false"
+      android:progressDrawable="@drawable/circle"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/textView14"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.135"
+      android:progress="80"></ProgressBar>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      app:layout_constraintBottom_toBottomOf="@+id/bar"
+      app:layout_constraintEnd_toEndOf="@+id/bar"
+      app:layout_constraintHorizontal_bias="0.503"
+      app:layout_constraintStart_toStartOf="@+id/bar"
+      app:layout_constraintTop_toTopOf="@+id/bar"
+      android:text="80%"
+      android:textColor="@color/white"></TextView>
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="Total Lectures"
+      android:textStyle="bold"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView19"
+      app:layout_constraintStart_toStartOf="@+id/bar" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="Absent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/textView22"
+      app:layout_constraintHorizontal_bias="0.036"
+      app:layout_constraintStart_toStartOf="@+id/textView12"
+      app:layout_constraintTop_toBottomOf="@+id/textView12"
+      app:layout_constraintVertical_bias="0.36" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="76dp"
+      android:fontFamily="sans-serif"
+      android:text="Present"
+      app:layout_constraintEnd_toEndOf="@+id/textView10"
+      app:layout_constraintStart_toStartOf="@+id/textView10"
+      app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+  <TextView
+      android:id="@+id/textView14"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="250dp"
+      android:layout_marginEnd="94dp"
+      android:layout_marginRight="94dp"
+      android:layout_marginBottom="78dp"
+
+      android:fontFamily="sans-serif"
+      android:text="Subjects(3)"
+      android:textColor="@color/white"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/textView15"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/textView15"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView15"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="ADS"
+      android:textColor="@color/purple_200"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+      app:layout_constraintEnd_toStartOf="@+id/textView23"
+      app:layout_constraintStart_toEndOf="@+id/textView19" />
+
+  <TextView
+      android:id="@+id/textView16"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="ICTT"
+      android:textColor="@color/purple_200"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+      app:layout_constraintEnd_toStartOf="@+id/textView24"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/textView15" />
+
+
+  <TextView
+      android:id="@+id/textView18"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="MAY 2020"
+      app:layout_constraintBottom_toTopOf="@+id/bar"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/bar"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView19"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="80dp"
+      android:layout_marginRight="80dp"
+
+      android:fontFamily="sans-serif"
+      android:text="20"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/textView15"
+      app:layout_constraintStart_toEndOf="@+id/textView10"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView21"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="78dp"
+      android:layout_marginBottom="89dp"
+      android:fontFamily="sans-serif"
+      android:text="16"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toTopOf="@+id/textView22"
+      app:layout_constraintEnd_toEndOf="@+id/textView19"
+      app:layout_constraintStart_toStartOf="@+id/textView19"
+      app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="4"
+      android:textColor="@color/white"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+      app:layout_constraintEnd_toEndOf="@+id/textView21"
+      app:layout_constraintStart_toStartOf="@+id/textView21" />
+
+  <TextView
+      android:id="@+id/textView23"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="348dp"
+      android:layout_marginBottom="81dp"
+      android:fontFamily="sans-serif"
+      android:text="79%"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toTopOf="@+id/textView24"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/textView15"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView24"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif"
+      android:text="81%"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toTopOf="@+id/textView25"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/textView23"
+      app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+  <TextView
+      android:id="@+id/textView25"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="78dp"
+      android:layout_marginBottom="167dp"
+      android:fontFamily="sans-serif"
+      android:text="80%"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/textView24"
+      app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+  <TextView
+      android:id="@+id/textView26"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CN"
+      android:fontFamily="sans-serif"
+      android:textColor="@color/purple_200"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView25"
+      app:layout_constraintEnd_toEndOf="@+id/textView16"
+      app:layout_constraintStart_toStartOf="@+id/textView16" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">AAMS</string>
+
+    <string-array name="Main">
+        <item>Timetable</item>
+        <item>Subjects</item>
+        <item>ATTENDANCE</item>
+        <item>Resources</item>
+
+    </string-array>
+
+    <string-array name="Description">
+        <item> Description 1 </item>
+        <item> Description 2 </item>
+        <item> Description 3 </item>
+        <item> Description 4 </item>
+
+    </string-array>
+
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+    <string-array name="Monday">
+        <item> SCHOOL OF HOLISTIC DEVELOPMENT </item>
+        <item> SHORT BREAK </item>
+        <item> COMPUTER NETWORKING </item>
+        <item> WEB TECHNOLOGY </item>
+        <item> BREAK </item>
+        <item> ADSL(CORE) SDTL(DA) </item>
+        <item> ICTT TUTORIAL(DA) </item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item> COMPUTER NETWORKING </item>
+        <item> SHORT BREAK </item>
+        <item> WEB TECHNOLOGY </item>
+        <item> WEB TECHNOLOGY </item>
+        <item> BREAK </item>
+        <item> ICTT </item>
+        <item> ADVANCED DATA STRUCTURE </item>
+        <item> MINI PROJECT(GUIDE MEET) </item>
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item> SEPM </item>
+        <item> SHORT BREAK </item>
+        <item> ICTT </item>
+        <item> ICTT </item>
+        <item> BREAK </item>
+        <item> SDTL(CORE) ADSL(DA) </item>
+        <item> MINI PROJECT(GUIDE MEET) </item>
+    </string-array>
+
+    <string-array name="Thursday">
+        <item> ADVANCED DATA STRUCTURE </item>
+        <item> SHORT BREAK </item>
+        <item> SEPM </item>
+        <item> SEPM </item>
+        <item> BREAK </item>
+        <item> SCIL </item>
+        <item> ICTT TUTORIAL(CORE) </item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item> SDTL(DA) ADSL(CORE) </item>
+        <item> SHORT BREAK </item>
+        <item> SDTL(CORE) ADSL(DA) </item>
+        <item> SDTL(CORE) ADSL(DA) </item>
+        <item> BREAK </item>
+        <item> SCIL </item>
+        <item> WEB TECHNOLOGY </item>
+    </string-array>
+
+    <string-array name="Saturday">
+        <item> EXTRA CLASSES AS PER SCHEDULE </item>
+    </string-array>
+
+
+    <string-array name="TIME_MONDAY">
+        <item> 9:00AM - 10:40AM </item>
+        <item> 10:40AM - 10:50AM </item>
+        <item> 10:50AM - 11:40AM </item>
+        <item> 11:40AM - 12:30PM </item>
+        <item> 12:30PM - 12:45PM </item>
+        <item> 12:45PM - 2:25PM </item>
+        <item> 2:25PM - 3:35PM </item>
+
+    </string-array>
+
+    <string-array name="TIME_TUESDAY">
+        <item> 9:00AM - 10:40AM </item>
+        <item> 10:40AM - 10:50AM </item>
+        <item> 10:50AM - 11:40AM </item>
+        <item> 11:40AM - 12:30PM </item>
+        <item> 12:30PM - 12:45PM </item>
+        <item> 12:45PM - 1:35PM </item>
+        <item> 1:35PM - 2:25PM </item>
+        <item> 2:25PM - 3:35PM </item>
+
+    </string-array>
+
+    <string-array name="TIME_WEDNESDAY">
+        <item> 9:00AM - 10:40AM </item>
+        <item> 10:40AM - 10:50AM </item>
+        <item> 10:50AM - 11:40AM </item>
+        <item> 11:40AM - 12:30PM </item>
+        <item> 12:30PM - 12:45PM </item>
+        <item> 12:45PM - 2:25PM </item>
+        <item> 2:25PM - 3:35PM </item>
+
+    </string-array>
+
+    <string-array name="TIME_THURSDAY">
+        <item> 9:00AM - 10:40AM </item>
+        <item> 10:40AM - 10:50AM </item>
+        <item> 10:50AM - 11:40AM </item>
+        <item> 11:40AM - 12:30PM </item>
+        <item> 12:30PM - 12:45PM </item>
+        <item> 12:45PM - 2:25PM </item>
+        <item> 2:25PM - 3:35PM </item>
+
+    </string-array>
+
+    <string-array name="TIME_FRIDAY">
+        <item> 9:00AM - 10:40AM </item>
+        <item> 10:40AM - 10:50AM </item>
+        <item> 10:50AM - 11:40AM </item>
+        <item> 11:40AM - 12:30PM </item>
+        <item> 12:30PM - 12:45PM </item>
+        <item> 12:45PM - 2:25PM </item>
+        <item> 2:25PM - 3:35PM </item>
+
+    </string-array>
+
+    <string-array name="TIME_SATURDAY">
+        <item> CHECK FOR UPDATES REGARDING TIMINGS </item>
+
+
+    </string-array>
+
+    <string-array name="Subjects">
+        <item>ICTT</item>
+        <item>Web Technology</item>
+        <item>Computer Networks</item>
+        <item>Advanced Data Structure</item>
+        <item>SEPM</item>
+        <item>SDTL</item>
+        <item>ADSL</item>
+
+
+    </string-array>
+
+    <string-array name="ICTT">
+        <item>Linear differential equations, Homogeneous and non-homogeneous higher order linear differential equations, Cauchys, Lagranges Differential equations, Method of undetermined coefficients, variation of parameters
+</item>
+        <item>Vector differentiation, Gradient, Divergence, Curl, Vector integration, line integrals, Surface integrals, Greens theorem, Stokes theorem, Gauss Divergence theorem. III. TRANSFORM TECHNIQUES</item>
+        <item>Fourier Transform, Inverse Fourier Transform, Z Transform, Inverse Z transform, Applications of Z
+            Transform to solve Difference equations.</item>
+        <item>Function of complex variables, Analytic Functions, Cauchy Riemann equations, Finding Harmonic conjugates, Conformal mapping, bilinear transformation, Contour integrals, Cauchys Theorem, Cauchy Integral formula. zeros of analytic functions, singularities, Laurents series; Residues, Cauchy Residue theorem (without proof), Evaluation of definite integral involving sine and cosine, Evaluation of certain improper integrals using the Bromwich contour.</item>
+        <item>Algebraic polynomials, Bisection Method, Secant Method, Newton Raphson method, Taylor series method, Eulers method, modified Eulers method. Runge-Kutta 4th Order methods. Predictor -Corrector methods, Milnes method.</item>
+
+
+    </string-array>
+
+    <string-array name="titles">
+        <item>Unit 1</item>
+        <item>Unit 2</item>
+        <item>Unit 3</item>
+        <item>Unit 4</item>
+        <item>Unit 5</item>
+    </string-array>
+
+
+</resources>
